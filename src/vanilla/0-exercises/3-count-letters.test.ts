@@ -6,13 +6,13 @@ test("countVowels - counts the vowels in a string", () => {
   expect(countVowels("the quick brown fox jumps over the lazy dog")).toBe(11);
 });
 
-test("countVowelsInEach - takes an array of strings and counts the vowels in each of them", () => {
-  expect(
-    countVowelsInEach([
-      "roses are red",
-      "violets are blue",
-      "some poems rhyme",
-      "others don't",
-    ])
-  ).toStrictEqual([5, 7, 5, 3]);
-});
+// test("countVowelsInEach - takes an array of strings and counts the vowels in each of them", () => {
+//   expect(
+//     countVowelsInEach([
+//       "roses are red",
+//       "violets are blue",
+//       "some poems rhyme",
+//       "others don't",
+//     ])
+//   ).toStrictEqual([5, 7, 5, 3]);
+// });
